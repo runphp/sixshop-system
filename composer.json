@@ -20,7 +20,10 @@
   "autoload": {
     "psr-4": {
       "SixShop\\System\\": "src"
-    }
+    },
+    "files": [
+      "src/helper.php"
+    ]
   },
   "extra": {
     "sixshop": {
