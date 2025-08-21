@@ -1,0 +1,31 @@
+{
+  "name": "six-shop/system",
+  "description": "系统扩展",
+  "type": "sixshop-extension",
+  "keywords": [
+    "sixshop",
+    "thinkphp"
+  ],
+  "require": {
+    "php": ">=8.3",
+    "six-shop/core": ">=0.4 <1.0"
+  },
+  "authors": [
+    {
+      "name": "hui he",
+      "email": "runphp@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SixShop\\System\\": "src"
+    }
+  },
+  "extra": {
+    "sixshop": {
+      "id": "system",
+      "class": "SixShop\\System\\Extension"
+    }
+  }
+}
