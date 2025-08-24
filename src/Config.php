@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace SixShop\System;
 
-use SixShop\Core\Trait\ConfigTrait;
+use SixShop\System\Trait\ConfigTrait;
 
 class Config
 {

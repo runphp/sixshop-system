@@ -5,6 +5,7 @@ namespace SixShop\System;
 
 use SixShop\Core\ExtensionAbstract;
 use SixShop\System\Cron\SystemCron;
+use SixShop\System\Hook\ExtensionStatusHook;
 use SixShop\System\Hook\GatheringCrontabEventHook;
 
 class Extension extends ExtensionAbstract
@@ -13,6 +14,7 @@ class Extension extends ExtensionAbstract
     public function getHooks(): array
     {
         return [
+            ExtensionStatusHook::class,
             GatheringCrontabEventHook::class
         ];
     }

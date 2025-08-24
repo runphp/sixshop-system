@@ -6,7 +6,7 @@ namespace SixShop\System;
 use RuntimeException;
 use SixShop\Core\Contracts\ExtensionInterface;
 use SixShop\Core\Helper;
-use SixShop\Extension\payment\Contracts\PaymentExtensionInterface;
+use SixShop\Payment\Contracts\PaymentExtensionInterface;
 use SixShop\System\Config\ExtensionConfig;
 use SixShop\System\Enum\ExtensionStatusEnum;
 use SixShop\System\Model\ExtensionConfigModel;
